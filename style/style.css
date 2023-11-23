@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background: url(../img/bg\ with\ shoe\ edited\ in\ photoshop.png)center/cover;
+    height: 810px;
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 66px;
+    align-items: center;
+}
+
+.nav-ul{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.nav-ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Monument Extended;
+    padding-right: 70px;
+}
+
+.iconca{
+    max-width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.korzina{
+    padding: 0 45px;
+}
+
+.header-item{
+    margin: 400px 0 0 900px;
+}
+
+.btn{
+    width: 74px;
+    height: 25px;
+    border-radius: 9.75px;
+    background: #EB0000;
+    color: white;
+    border: none;
+    font-size: 12px;
+    margin:0  0 5px 178px;
+}
+
+.text-item{
+    max-width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.price{
+    font-size: 36px;
+    color: #E70000;
+    font-weight: bold;
+}
+
+.text{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-about{
+    max-width: 1200px;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-about{
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.about-btn{
+    max-width: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-add{
+    width: 179px;
+    height: 51px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+}
+
+.btn-buy{
+    width: 162px;
+    height: 51px;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    background: none;
+    border: none;
+    border: 0.75px solid #FFF;
+    margin-left: 33px;
+}
+
+.ins{
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.text-a{
+    width: 300px;
+    height: 61px;
+    line-height: 20px;
+    color: white;
+    font-size: 13px;
+}
